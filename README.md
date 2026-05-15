@@ -1,5 +1,7 @@
 # 🚀 Founder Launch Kit: AI Meeting Notes
 
+**🔴 Live Demo:** [https://ai-meeting-notes1.vercel.app/](https://ai-meeting-notes1.vercel.app/)
+
 A premium AI startup **Waitlist + Dashboard system** designed to impress both investors and early users. This project combines high-end animations with real-time data integration to create a polished launch experience.
 
 ---
