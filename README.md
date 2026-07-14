@@ -7,13 +7,6 @@
     Real-time Voice Transcription • Smart Action Item Extraction • Founder Analytics • Referral Engine • Stripe Billing
   </p>
 
-  <p align="center">
-    <a href="https://ai-meeting-notes1.vercel.app/">🌐 Live Demo</a>
-  </p>
-</p>
-
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" alt="React" />
@@ -26,7 +19,8 @@
 </p>
 
 ---
-
+  # 🌐 Live Demo : https://ai-meeting-notes1.vercel.app/
+  ---
 # 📖 Overview
 
 AI Meeting Notes is a production-ready SaaS platform that combines **AI-powered meeting transcription**, **smart task extraction**, **subscription billing**, **founder analytics**, and a **viral waitlist system** into a modern full-stack application.
