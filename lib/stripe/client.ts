@@ -19,6 +19,7 @@ export async function createCheckoutSession(userId: string, userEmail: string, p
     customer_email: userEmail,
     metadata: {
       userId: userId,
+      priceId: priceId,
     },
   });
 

@@ -7,6 +7,7 @@ import { TestimonialsSection } from '@/components/landing/TestimonialsSection';
 import { PricingSection } from '@/components/landing/PricingSection';
 import { FAQSection } from '@/components/landing/FAQSection';
 import { WaitlistSection } from '@/components/landing/WaitlistSection';
+import { LiveSocialProof } from '@/components/landing/LiveSocialProof';
 import { Footer } from '@/components/layout/Footer';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <PricingSection />
       <FAQSection />
       <WaitlistSection />
+      <LiveSocialProof />
       <Footer />
     </main>
   );

@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server';
 import { createCheckoutSession } from '@/lib/stripe/client';
 import { NextResponse } from 'next/server';
+import { cookies } from 'next/headers';
 
 export async function POST(request: Request) {
   try {
@@ -8,6 +9,14 @@ export async function POST(request: Request) {
     
     if (!priceId) {
       return NextResponse.json({ error: 'Price ID is required' }, { status: 400 });
+    }
+
+    const cookieStore = cookies();
+    const demoMode = cookieStore.get('demo_mode')?.value;
+
+    if (demoMode === 'user' || demoMode === 'admin') {
+      const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+      return NextResponse.json({ url: `${appUrl}/profile?demo_checkout=success` });
     }
 
     const supabase = createClient();
